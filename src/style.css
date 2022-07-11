@@ -39,12 +39,9 @@ body {
     justify-content: center;
   }
   .feature-item {
-    width: 25vw;
-    height: 25vh;
     border-radius: 5px;
-    background-color:rgb(201, 156, 223);
-    margin: 0 10px;
-   
+    background-color:rgb(201, 156, 223); 
+    height: 100%;
   }
   .feature-item h2{
     text-align: center;
@@ -59,11 +56,9 @@ body {
   .section-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: center;
   }
-  .section-item {
-    width: 80%;
-    height: 5vh;
+  .section-item {      
     border-radius: 5px;
     margin: 5px 0;
     background-color: #202020;
@@ -73,9 +68,9 @@ body {
   .section-right {
     background-color: #202020;
     border-radius: 5px;
-    width: 50%;
     color: white;
     padding-left: 10px;
+    height: 100%;
   }
   .page-footer {
     background-color: rgb(84, 27, 99);
@@ -84,22 +79,20 @@ body {
     justify-content: space-between;
   }
   .footer-logo {
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: rgb(201, 156, 223);
+    color: wheat;
   }
   .footer-right {
     display: flex;
   }
-  .footer-item {
-    background-color:rgb(201, 156, 223);
-    width: 35px;
-    max-height: 35px;
-    border-radius: 10px;
-    margin: 0 5px;
-  }
-  .footer-item svg{
+  .f-soc a{
+    display: block;
     width: 100%;
     height: 100%;
+  }
+  .f-soc svg{
+    width: 25px;
+    height: 25px;
+  }
+  .row, .container{
+    justify-content: center;
   }
