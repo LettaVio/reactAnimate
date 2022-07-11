@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactAnimate/static/css/main.75b7f76e.css",
+    "main.js": "/reactAnimate/static/js/main.307d8b66.js",
+    "static/js/787.602e8317.chunk.js": "/reactAnimate/static/js/787.602e8317.chunk.js",
+    "static/media/photo_1.png": "/reactAnimate/static/media/photo_1.45dadfd211350100f84a.png",
+    "index.html": "/reactAnimate/index.html",
+    "main.75b7f76e.css.map": "/reactAnimate/static/css/main.75b7f76e.css.map",
+    "main.307d8b66.js.map": "/reactAnimate/static/js/main.307d8b66.js.map",
+    "787.602e8317.chunk.js.map": "/reactAnimate/static/js/787.602e8317.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75b7f76e.css",
+    "static/js/main.307d8b66.js"
+  ]
+}
