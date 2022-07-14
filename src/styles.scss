@@ -1,3 +1,8 @@
+$background-violet-dark: rgb(84, 27, 99);
+$background-violet-light: rgb(201, 156, 223); 
+$background-grey-dark:#202020;
+$text-color: wheat;
+$border-radius-5: 5px;
 
 body {
     padding: 0;
@@ -6,15 +11,15 @@ body {
     margin: 0;
   }
   .page-wrap {
-    border: 2px solid rgb(84, 27, 99);
-    border-radius: 5px;
+    border: 2px solid $background-violet-dark;
+    border-radius: $border-radius-5;
     background-color: black;
   }
   .page-hero {
     padding: 25px 0;
-    background-color:rgb(84, 27, 99);
+    background-color: $background-violet-dark;
     text-align: center;
-    color: wheat;
+    color: $text-color;
   }
   .hero-logo {
     width: 7vw;
@@ -38,8 +43,8 @@ body {
     justify-content: center;
   }
   .feature-item {
-    border-radius: 5px;
-    background-color:rgb(201, 156, 223); 
+    border-radius: $border-radius-5;
+    background-color:$background-violet-light;
     height: 100%;
   }
   .feature-item h2{
@@ -47,8 +52,9 @@ body {
   }
   .page-section {
     margin: 15px;
-    background-color: rgb(201, 156, 223);
-    border-radius: 5px;
+    background-color: $background-grey-dark;
+    border-radius: $border-radius-5;
+    color: $text-color;
     padding: 15px;
     display: flex;
   }
@@ -58,43 +64,45 @@ body {
     justify-content: center;
   }
   .section-item {      
-    border-radius: 5px;
+    border-radius:  $border-radius-5;
     margin: 5px 0;
-    background-color: #202020;
-    color: white;
+    background-color: $background-violet-dark;
+    color: $text-color;
     padding-left: 10px;
   }
   .section-right {
-    background-color: #202020;
-    border-radius: 5px;
-    color: white;
+    background-color: $background-violet-dark;
+    border-radius:  $border-radius-5;
+    color: $text-color;
     padding-left: 10px;
     height: 100%;
   }
   .page-footer {
-    background-color: rgb(84, 27, 99);
+    background-color:  $background-violet-light;
+    color: $background-grey-dark;
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
   }
   .footer-logo {
-    color: wheat;
-    display: flex;
+       display: flex;
     align-items: center;
     justify-content: center;
   }
   .footer-right {
     display: flex;
   }
-  .f-soc a{
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-  .f-soc svg{
-    width: 25px;
-    height: 25px;
-  }
+  .f-soc{
+     a{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    svg{
+        width: 25px;
+        height: 25px;
+    }
+}
   .row, .container{
     justify-content: center;
   }

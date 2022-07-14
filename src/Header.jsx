@@ -16,9 +16,9 @@ export default function Header() {
             </div>
             <h1>Violetta Hryshchuk</h1>
         <p className="hero-text xyz-nested">
-         Hello! 
-         If you are reading this text, I'll do all right with my code.
-         So let me know how are you? 
+        Hi! 
+         If you read this text, you'll search for someone who can complete your team.
+         So let me know what do you think about me?<br/> By the way, you could read my CV and I'm waiting for your message.  
         </p>
             </Col>
           </Row>

@@ -8,7 +8,7 @@ export default function Footer() {
       <footer className="page-footer" xyz="fade down ease-in-out delay-10">
 
         <div className="footer-logo xyz-nested" xyz="fade left ease-in-out delay-10" >
-           Contact with me:
+           Contact me:
        </div>
         <div className="footer-right" xyz="fade up stagger ease-in-out delay-10">
         <a className=" f-soc xyz-nested mx-2 btn btn-outline-dark" 
