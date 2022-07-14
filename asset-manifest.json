@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/reactAnimate/static/css/main.8ecade09.css",
-    "main.js": "/reactAnimate/static/js/main.f92a481f.js",
+    "main.css": "/reactAnimate/static/css/main.82560f04.css",
+    "main.js": "/reactAnimate/static/js/main.d032ce6f.js",
     "static/js/787.602e8317.chunk.js": "/reactAnimate/static/js/787.602e8317.chunk.js",
     "static/media/photo_1.png": "/reactAnimate/static/media/photo_1.45dadfd211350100f84a.png",
     "index.html": "/reactAnimate/index.html",
-    "main.8ecade09.css.map": "/reactAnimate/static/css/main.8ecade09.css.map",
-    "main.f92a481f.js.map": "/reactAnimate/static/js/main.f92a481f.js.map",
+    "main.82560f04.css.map": "/reactAnimate/static/css/main.82560f04.css.map",
+    "main.d032ce6f.js.map": "/reactAnimate/static/js/main.d032ce6f.js.map",
     "787.602e8317.chunk.js.map": "/reactAnimate/static/js/787.602e8317.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ecade09.css",
-    "static/js/main.f92a481f.js"
+    "static/css/main.82560f04.css",
+    "static/js/main.d032ce6f.js"
   ]
 }
